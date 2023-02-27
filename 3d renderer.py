@@ -22,7 +22,7 @@ class modello:
                 c = n.replace(") \n", "")
                 data = c.split(",", 33)
                 for elemento in data:
-                    if P_file == "C:/Users/Gabri/Documents/3d_renderer_python/modello_punti.txt":
+                    if P_file == "C:/Users/Gabri/Documents/3d_renderer_python/modello_punti.txt":#add the points and connections files extracted from blender or other 3d modelling software
                         f_elemento = float(elemento)
                         data[data.index(elemento)] = f_elemento * 100
                     else:
